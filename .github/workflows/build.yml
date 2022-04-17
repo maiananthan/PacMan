@@ -22,3 +22,8 @@ jobs:
           ./setup.ps1
           pyinstaller --onefile .\PacMan.py .\commands\__init__.py .\commands\add.py .\commands\color.py .\commands\config.py .\commands\create.py .\commands\display.py .\commands\remove.py .\commands\update.py .\commands\upgrade.py
           Get-ChildItem -Recurse dist
+      - name: upload the asset
+        uses: actions/upload-release-asset@v1
+        with:
+          name: PacMan-win64
+          path: dist/PacMan.exe
