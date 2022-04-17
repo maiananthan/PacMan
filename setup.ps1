@@ -1,0 +1,1 @@
+pip install .\lib\pycurl-7.45.1-cp310-cp310-win_amd64.whl
