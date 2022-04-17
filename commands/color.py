@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+class color:
+   PURPLE = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
+   B_PURPLE = '\033[1;95m'
+   B_CYAN = '\033[1;96m'
+   B_DARKCYAN = '\033[1;36m'
+   B_BLUE = '\033[1;94m'
+   B_GREEN = '\033[1;92m'
+   B_YELLOW = '\033[1;93m'
+   B_RED = '\033[1;91m'
