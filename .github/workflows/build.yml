@@ -3,7 +3,7 @@ name: executable creation
 on: [push]
 
 jobs:
-  windows:
+  steps:
     - name: checkout code from repo
       uses: actions/checkout@v1
     - name: set-up python3.8
