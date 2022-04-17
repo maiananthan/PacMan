@@ -1,1 +1,1 @@
-pip install .\lib\pycurl-7.45.1-cp38-cp38-win_amd64.whl
+pip install .\deps\pycurl-7.45.1-cp38-cp38-win_amd64.whl
